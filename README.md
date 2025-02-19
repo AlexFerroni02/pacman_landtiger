@@ -17,6 +17,7 @@ Inside the `Source` folder, you will find various subfolders that manage differe
 - **`TouchPanel/`** and **`GLCD/`**: Manages the LCD display
 - **`CAN/`**: Contains code to manage CAN communication, which is used for transmitting game data (such as score, countdown, and lives). The CAN bus is connected in loopback mode on the LandTiger board, meaning the messages are sent and received within the system itself for testing and communication purposes.
 - **`music/`**: Contains the code and data to handle musical notes and sound effects in the game.
+- **`sample.c/`**: Contains the initialization code for all the different parts of the project. This includes setting up hardware components like the joystick, timer, buttons, and CAN communication, as well as preparing the display and other peripherals for the game. This file also serves as the main entry point for the program, where the main game loop is executed, and all components are initialized before the game begins.
   
 Outside the `Source` folder, you will find the following files:
 
