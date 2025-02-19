@@ -38,5 +38,5 @@ For detailed setup instructions on how to configure the environment and compile 
 1. Build the project using Keil or the chosen development environment.
 2. Flash the code onto the LandTiger board using the flashing tool.
 3. Start the game on the board and begin playing!
-4. 
+ 
 You can customize the game by adjusting settings such as the time intervals, the speed of Pacman, and other gameplay parameters to suit your preferences.
